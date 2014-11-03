@@ -1,0 +1,72 @@
+#home_body1{
+height: 370px;
+background-color: #202020;
+}
+#home_block1{
+	height: 370px;
+	background-color: #1f1f1f;
+}
+#home_body1_image_tab{
+	height: 204px;
+}
+#home_body1_image{
+	float: left;
+}
+#home_body1_text_field{
+	height: 95px;
+}
+#home_body1_text{
+	width: 240px;
+	text-align: center;
+	float: left;
+	font-family: Quark;
+	font-size: 18pt;
+	font-weight: lighter;
+	color: white;
+	margin-top: 27px; 
+}
+#home_body1_button_field{
+	width: 240px;
+	height: 70px;
+	float: left;
+}
+#home_body1_button{
+	width: 198px;
+	height: 44px;
+	background-color: #202020;
+	border-color: #75bf46;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18pt;
+
+}
+#home_body1_button_text{
+	color: #75bf46;
+	font-family: Quark;
+	font-weight: lighter;
+	margin-top: 10px;
+}
+/*-------------------*/
+#home_body2{
+	height: 434px;
+	background-color: #0e0e0e;
+}
+
+/*--------*/
+#home_body3{
+	height: 2020px;
+	background-color: #212121;
+
+}
+
+
+
+
+
+
+
+
+
+

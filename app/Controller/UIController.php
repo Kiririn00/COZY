@@ -2,7 +2,7 @@
 //this is controller
 class UIController extends AppController {
 	//set layout
-	var $layout = 'cozy_home';
+	var $layout = 'cozy_home_layout';
 	//set helper
 	public $helpers = array('Html','Form','Js','Text');
 	

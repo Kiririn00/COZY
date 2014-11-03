@@ -7,7 +7,8 @@
 		echo $this->Html->meta('icon');
 
 		//echo $this->Html->css('cake.generic');
-		echo $this->Html->css('cozy_home');	
+		echo $this->Html->css('cozy_home_layout');
+		echo $this->Html->css('home.css');	
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -68,9 +69,7 @@
 	</div><!-- end #header_bg -->
 
 	<!--include other view -->
-	<div id='content_layout'>
 	<?php echo $this->fetch('content'); ?>
-	</div>
 	
 
 	<div id='footer_border'></div>
