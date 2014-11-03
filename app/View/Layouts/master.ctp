@@ -12,7 +12,7 @@
 		echo $this->Html->css('contact');
 		echo $this->Html->css('about_us');
 		echo $this->Html->css('event');
-		echo $this->Html->css('project');	
+		echo $this->Html->css('search');	
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -42,6 +42,7 @@
 						)) ?>				
 
 				</span>
+
 				<span id='menu_text'>
 					<?php echo $this->Html->link('New & Event',array(
 							'action' => 'Event'
@@ -76,20 +77,7 @@
 				<div id='header_button_border'></div>
 			</div>
 		</div>
-		<div id='menu_button_tab'>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu1.jpg'); ?>
-			</div>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu2.jpg'); ?>				
-			</div>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu3.jpg'); ?>	
-			</div>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu4.jpg'); ?>
-			</div>											
-		</div>
+
 	</div><!-- end #content_layout -->
 
 	
@@ -134,4 +122,5 @@
 
 </body>
 </html>
+
 

@@ -2,7 +2,7 @@
 //this is controller
 class UIController extends AppController {
 	//set layout
-	var $layout = 'cozy_home_layout';
+	var $layout = 'master';
 	//set helper
 	public $helpers = array('Html','Form','Js','Text');
 	
@@ -11,7 +11,8 @@ class UIController extends AppController {
 	}
 
 	public function Home(){
-		//this is home page	
+		//this is home page
+		$this->layout = 'cozy_home_layout';
 	}
 	public function AboutUs(){
 		//About Us Page
@@ -22,8 +23,9 @@ class UIController extends AppController {
 	public function Event(){
 		//Event Page
 	}
-	public function Product(){
+	public function Project(){
 		//show product page
+		$this->layout = 'cozy_home_layout';
 	}
 	public function Search(){
 		//Search Product page
