@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+}
+/*Header*/
+#header_bg{
+//position: absolute;
+background: url('/COZY/app/webroot/img/bg.jpg') ; 
+height: 745px;
+min-width: 1240px;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
+}
+#content_layout{
+max-width: 960px;
+margin-left: 280px;
+}
+#logo{
+float: left;
+margin-right: 70px;
+}
+#menu_tab{
+float: left;
+}
+#menu_tab_border1{
+width: 617px;
+height: 1px;
+background-color: #3aa9e6;
+}
+#menu_tab_border2{
+width: 617px;
+height: 1px;
+background-color: #66c6f3;
+}
+#menu_tab_text{
+padding-top:46px; 
+}
+#menu_text{
+color: white;
+font-family: Quark;
+font-weight: bold;
+margin-right: 22px;
+font-size: 12pt
+
+}
+#header_topic{
+margin-top: 308px;
+}
+#header_topic_sqare{
+background-color: rgba(0,0,0,0.5);
+width: 390px;
+height: 137px;
+}
+#header_topic_text{
+	color: white;
+	font-family: Quark;
+	font-weight: lighter;
+	font-size: 34pt;
+	float: right;
+	margin-top: 8px;
+}
+#header_button{
+	width: 198px;
+	//height: 44px;
+	background-color: #75bf46;
+	border-radius: 8px;
+	margin-left: 150px;
+	margin-top: 20px;
+	padding-top: 44px;
+}
+#header_button_border{
+	width: 198px;
+	height: 7px;
+	background-color: #68b53c;
+	border-radius: 8px;
+}
+#header_button_text{
+	position: absolute;
+	font-family: Quark;
+	font-weight: lighter;
+	color: white;
+	margin-top: 169px;
+margin-left: 197px;
+font-size: 16pt;
+}
+#menu_button_tab{
+	margin-top: 82px;
+}
+#menu_button{
+	float: left;
+}
+/*Footer*/
+#footer_border{
+	height: 1px;
+	width: 100%;
+	min-width: 1240px;
+	background-color: #202020;
+}
+#footer_bg{
+	width: 100%;
+	min-width: 1240px;
+	height: 256px;
+	background-color: #151515;
+}
+#footer_big_block{
+	margin-left: 280px;
+	width: 960px;
+}
+#footer_block{
+	width: 320px;
+	float: left;
+}
+#footer_topic{
+	font-family: Quark;
+	font-weight: lighter;
+	margin-top: 10px;
+	color: #798489;
+	font-size: 12pt;
+}
+#footer_detail{
+	font-family: Quark;
+	font-weight: lighter;
+	font-size: 10pt;
+	margin-top: 10px;
+	color: #9fb9c7;
+}
+
+form {
+  width: 100%;
+  height: 41px;
+  position: relative;
+  border: 1px solid black;
+  background: white;
+}
+
+input[type="text"]{
+  border: 0;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  font-size: 17px;
+  background: transparent;
+  margin: 0 .5em 0 0;
+  padding-right: 25%;
+  
+}
+
+input[type="submit"]{
+  background: black;
+  border: 0;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  height: 34px;
+  margin: 0;
+  right: 4px;
+  top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
