@@ -48,18 +48,25 @@
 						)) ?>				
 				</span>
 				<span id='menu_text'>TIPS</span>
+
+				<span id='menu_text'>
 					<?php echo $this->Html->link('About us',array(
 							'action' => 'AboutUs'
 						)) ?>
-				<span id='menu_text'>
-
+					
 				</span>
 				<span id='menu_text'>
 					<?php echo $this->Html->link('Contact us',array(
 							'action' => 'Contact'
 						)) ?>
 				</span>
-				<span id='menu_icon'></span>
+				<div id='menu_icon'>
+					<?php 
+						echo $this->Html->image('search_icon.png',array(
+							'url' => array('action' => 'Search')
+						)); 
+					?>	
+				</div>
 			</div>
 			<!--
 			<div id='menu_tab_border1'></div>
