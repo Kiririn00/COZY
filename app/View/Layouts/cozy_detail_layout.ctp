@@ -12,7 +12,9 @@
 		echo $this->Html->css('contact');
 		echo $this->Html->css('about_us');
 		echo $this->Html->css('event');
-		echo $this->Html->css('project');	
+		echo $this->Html->css('project');
+		echo $this->Html->css('search');
+		echo $this->Html->css('detail');	
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -83,20 +85,29 @@
 				<div id='header_button_border'></div>
 			</div>
 		</div>
-		<div id='menu_button_tab'>
-			<div id='menu_button'>
-				<span id='menu_button_text'>Test</span>
-				<?php echo $this->Html->image('menu1.jpg'); ?>
+		<div id='detail_menu_tab'>
+			<div id='detail_menu_topic'>
+				<?php echo $this->Html->image('detail_icon.png',array('id' => 'detail_icon')); ?>
+				<span id='detail_text_topic'>CHOKCHAI 4-84</span>
 			</div>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu2.jpg'); ?>				
+			<div id='detail_menu_option'>
+				<div id='detail_option_field'>
+					<?php echo $this->Html->image('plus1.png',array('id' => 'option_icon')); ?>					
+					
+					<div id='option_detail'>รายละเอียดโครงการ<br/>Description</div>
+				</div>
+				<div id='detail_option_field'>
+					<?php echo $this->Html->image('plus1.png',array('id' => 'option_icon')); ?>					
+					
+					<div id='option_detail'>แกลอรี่<br/>Gallery</div>
+				</div>
+				<div id='detail_option_field' class='field_color'>
+					<?php echo $this->Html->image('plus2.png',array('id' => 'option_icon')); ?>					
+					
+					<div id='option_detail' class='option_text_color'>แผนที่โครงการ<br/>Map</div>
+				</div>
+
 			</div>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu3.jpg'); ?>	
-			</div>
-			<div id='menu_button'>
-				<?php echo $this->Html->image('menu4.jpg'); ?>
-			</div>											
 		</div>
 	</div><!-- end #content_layout -->
 
@@ -142,4 +153,6 @@
 
 </body>
 </html>
+
+
 

@@ -13,7 +13,8 @@
 		echo $this->Html->css('about_us');
 		echo $this->Html->css('event');
 		echo $this->Html->css('project');
-		echo $this->Html->css('search');	
+		echo $this->Html->css('search');
+		echo $this->Html->css('detail');	
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

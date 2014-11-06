@@ -30,6 +30,10 @@ class UIController extends AppController {
 	public function Search(){
 		//Search Product page
 	}
+	public function Detail(){
+		//Detail Page
+		$this->layout = 'cozy_detail_layout';
+	}
 
 }
 

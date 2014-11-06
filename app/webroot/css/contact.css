@@ -1,4 +1,19 @@
 #contact_body1{
 	height: 993px;
 	background-color: #212121;
+	width: 100%
 }
+#contact_block{
+	width: 480px;
+	background-color: #202020;
+	height: 100%;
+	float: left;
+}
+#contact_topic{
+	font-size: 18pt;
+	padding-left: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+

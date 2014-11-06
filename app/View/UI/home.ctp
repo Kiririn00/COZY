@@ -152,7 +152,7 @@
 		</div><!-- end #topic_body3 -->		
 		<div id='content_body3_field'>
 			<div id='content_body3'>
-				<?php echo $this->Html->image('project1.jpg'); ?>
+				<?php echo $this->Html->image('event.jpg'); ?>
 				<span id='content_topic'>
 					CHOKCHAI 4 - 6
 				</span>
@@ -163,14 +163,15 @@
 				ราคาเริ่มต้น 3.5 ล้านบาท
 				<br/><br/>
 				<?php
-					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
-					));
+					echo $this->Html->image('read_more.jpg',array(
+						'url' => array('action' => 'Event')
+					))
+
 				?>
 				</div>
 			</div>
 			<div id='content_body3'>
-				<?php echo $this->Html->image('project1.jpg'); ?>
+				<?php echo $this->Html->image('event.jpg'); ?>
 				<span id='content_topic'>
 					CHOKCHAI 4 - 6
 				</span>
@@ -181,14 +182,20 @@
 				ราคาเริ่มต้น 3.5 ล้านบาท
 				<br/><br/>
 				<?php
+					/*	
 					echo $this->Html->link('รายละเอียดโครงการ',array(
 						'action' => 'Detail',
 					));
+					 */
+
+					echo $this->Html->image('read_more.jpg',array(
+						'url' => array('action' => 'Event')
+					))
 				?>
 				</div>
 			</div>
 			<div id='content_body3'>
-				<?php echo $this->Html->image('project1.jpg'); ?>
+				<?php echo $this->Html->image('event.jpg'); ?>
 				<span id='content_topic'>
 					CHOKCHAI 4 - 6
 				</span>
@@ -199,9 +206,10 @@
 				ราคาเริ่มต้น 3.5 ล้านบาท
 				<br/><br/>
 				<?php
-					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
-					));
+					echo $this->Html->image('read_more.jpg',array(
+						'url' => array('action' => 'Event')
+					))
+
 				?>
 				</div>
 			</div>
@@ -221,19 +229,46 @@
 		<div id='content_body3_field2'>
 			<div id='content_tip'>
 				หากเพื่อนๆพบว่าช่วงนี้ทำไมบ้านของเราจึงมีข้าวของ กระจัดกระจายเกะกะไปหมด บรรยากาศซ้ำซากจำเจ ไม่น่าอยู่เอาซะเลย ลองหาเวลาว่างสักนิด เนรมิตบ้านน้อยหลังเดิมให้โปร่งโล่งสบายตา 
+			<br/>
+			<?php
+				echo $this->Html->image('read_more.jpg',array(
+					'id' => 'read_more_button',
+					'url' => array('action' => 'Event')
+				))
+
+			?>
 				
 			</div>
+
 			<div id='content_tip'>
-				หากเพื่อนๆพบว่าช่วงนี้ทำไมบ้านของเราจึงมีข้าวของ กระจัดกระจายเกะกะไปหมด บรรยากาศซ้ำซากจำเจ ไม่น่าอยู่เอาซะเลย ลองหาเวลาว่างสักนิด เนรมิตบ้านน้อยหลังเดิมให้โปร่งโล่งสบายตา 
+				หากเพื่อนๆพบว่าช่วงนี้ทำไมบ้านของเราจึงมีข้าวของ กระจัดกระจายเกะกะไปหมด บรรยากาศซ้ำซากจำเจ ไม่น่าอยู่เอาซะเลย ลองหาเวลาว่างสักนิด เนรมิตบ้านน้อยหลังเดิมให้โปร่งโล่งสบายตา
+			<br/>
+			<?php
+				echo $this->Html->image('read_more.jpg',array(
+					'id' => 'read_more_button',
+					'url' => array('action' => 'Event')
+				))
+
+			?>
+ 
 				
 			</div>
 
 			<div id='content_tip'>
 				หากเพื่อนๆพบว่าช่วงนี้ทำไมบ้านของเราจึงมีข้าวของ กระจัดกระจายเกะกะไปหมด บรรยากาศซ้ำซากจำเจ ไม่น่าอยู่เอาซะเลย ลองหาเวลาว่างสักนิด เนรมิตบ้านน้อยหลังเดิมให้โปร่งโล่งสบายตา 
+			<br/>
+			<?php
+				echo $this->Html->image('read_more.jpg',array(
+					'id' => 'read_more_button',
+					'url' => array('action' => 'Event')
+				))
+
+			?>
 				
 			</div>
 
-		</div>
+		</div><!-- end #content_body3_field2 -->
+
 
  </div><!-- end content_layout -->
 </div><!-- home_body -->
