@@ -152,6 +152,16 @@ font-size: 16pt;
 #menu_button{
 	float: left;
 	height: 77px;
+	width: 240px;
+	background-image: url(/COZY/app/webroot/img/menu1.jpg)
+}
+#menu_button_name{
+	color: white;
+	font-size:31pt;
+	font-weight: lighter;
+	padding-top: 15px;
+	padding-left: 65px;
+
 }
 /*Footer*/
 #footer_border{

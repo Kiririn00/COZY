@@ -85,17 +85,16 @@
 		</div>
 		<div id='menu_button_tab'>
 			<div id='menu_button'>
-				<span id='menu_button_text'>Test</span>
-				<?php echo $this->Html->image('menu1.jpg'); ?>
+				<div id='menu_button_name'>บ้านเดี่ยว</div>
 			</div>
 			<div id='menu_button'>
-				<?php echo $this->Html->image('menu2.jpg'); ?>				
+				<div id='menu_button_name'>คอนโดมีเนี่ยม</div>				
 			</div>
 			<div id='menu_button'>
-				<?php echo $this->Html->image('menu3.jpg'); ?>	
+				<div id='menu_button_name'>ทาวโฮมส์</div>
 			</div>
 			<div id='menu_button'>
-				<?php echo $this->Html->image('menu4.jpg'); ?>
+				<div id='menu_button_name'>อื่นๆ</div>
 			</div>											
 		</div>
 	</div><!-- end #content_layout -->

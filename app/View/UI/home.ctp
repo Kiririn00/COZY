@@ -6,13 +6,13 @@
 			<?php echo $this->Html->image('home_pic1.jpg'); ?>
 			</div>
 			<div id='home_body1_image'>
-			<?php echo $this->Html->image('home_pic2.jpg'); ?>
+			<?php echo $this->Html->image('home_pic1.jpg'); ?>
 			</div>
 			<div id='home_body1_image'>
-			<?php echo $this->Html->image('home_pic3.jpg'); ?>
+			<?php echo $this->Html->image('home_pic1.jpg'); ?>
 			</div>
 			<div id='home_body1_image'>
-			<?php echo $this->Html->image('home_pic4.jpg'); ?>
+			<?php echo $this->Html->image('home_pic1.jpg'); ?>
 			</div>
 		</div>
 		<div id='home_body1_text_field'>
