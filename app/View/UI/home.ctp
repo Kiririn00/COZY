@@ -56,9 +56,9 @@
 
 <div id='home_body2'>
  <div id='content_layout'>
- 	<?php echo $this->Html->image('body2.jpg'); ?>	
+	<?php echo $this->Html->image('body2.jpg'); ?>
  </div>
-</div>
+</div><!-- end #home_body2 -->
 <div id='home_body3'>
  <div id='content_layout'>
 	<div id='block1_body3'>

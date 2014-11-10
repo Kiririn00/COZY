@@ -12,7 +12,7 @@ body{
 	text-decoration: none;
 }
 a{
-	color: #b5b5b5;
+	color: white;
 	line-height: 0px;
 	font-family: Quark;
 	font-weight: bold;
@@ -27,7 +27,7 @@ form {
   background: white;
 }
 
-input[type="text"]{
+#footer_field_text{
   border: 0;
   width: 75%;
   height: 100%;
@@ -39,7 +39,7 @@ input[type="text"]{
   
 }
 
-input[type="submit"]{
+#footer_button{
   background: black;
   border: 0;
   position: absolute;
@@ -246,6 +246,15 @@ height: 68px;
 #option_detail{
 	font-size: 13pt;
 }
+
+
+
+
+
+
+
+
+
 
 
 

@@ -14,8 +14,7 @@
 		echo $this->Html->css('event');
 		echo $this->Html->css('project');
 		echo $this->Html->css('search');
-		echo $this->Html->css('detail');
-		echo $this->Html->css('event_detail');	
+		echo $this->Html->css('detail');	
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -86,7 +85,51 @@
 				<div id='header_button_border'></div>
 			</div>
 		</div>
+		<div id='detail_menu_tab'>
+			<div id='detail_menu_topic'>
+				<?php echo $this->Html->image('detail_icon.png',array('id' => 'detail_icon')); ?>
+			<span id='detail_text_topic'><?php echo $project_name; ?></span>
+			</div>
+			<div id='detail_menu_option'>
+				<div id='detail_option_field' class='field_color'>
+					<?php echo $this->Html->image('plus2.png',array('id' => 'option_icon')); ?>					
+					
+					<div id='option_detail'  class='option_text_color'>			
+						<?php
+	       					echo $this->Html->link('รายละเอียดโครงการ',array(
+							'action' => 'DetailDesc',
+							'class' => 'white_color'
+						));  
+						?>
+						<br/>Description
+					</div>
+				</div>
+				<div id='detail_option_field'>
+					<?php echo $this->Html->image('plus1.png',array('id' => 'option_icon')); ?>					
+					
+						<div id='option_detail'>
+						<?php
+	       					echo $this->Html->link('แกลอรี่',array(
+							'action' => 'DetailImage'
+						));  
+						?>
+						<br/>Gallery</div>
+				</div>
+				<div id='detail_option_field' >
+					<?php echo $this->Html->image('plus2.png',array('id' => 'option_icon')); ?>					
+					
+					<div id='option_detail'>
+						<?php
+	       					echo $this->Html->link('แผนที่โครงการ',array(
+							'action' => 'Detail',
+													));  
+						?>
 
+						<br/>Map</div>
+				</div>
+
+			</div>
+		</div>
 	</div><!-- end #content_layout -->
 
 	
@@ -122,7 +165,7 @@
 				<form action="#" method="get">
 					<input id='footer_field_text' type="text" name="email" value="" placeholder="Enter email">
   					<input id='footer_button' type="submit" value="Enter!!!"> 
-				</form>	
+
 				
 				</div>				
 			</div>
@@ -131,5 +174,7 @@
 
 </body>
 </html>
+
+
 
 

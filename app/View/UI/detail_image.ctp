@@ -4,39 +4,85 @@
 		
 	</div>
 	<div id='detail_map_field'>
- 		<div id="map_body3" class='detail_map'>
-		<?php
-			echo $this->Html->image('map.jpg');
-		?>
-		</div>
-		<div id='detail_map_information'>
+		<div id="map_body3" class='detail_image_block'>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
 
-		บริษัท แบงคอกนิวเทรนด์ ดีเวลอปเมนท์ จำกัด
-		23 ลาดพร้าว 71 ถนนลาดพร้าว  แขวง/เขตวังทองหลาง กทม 10310
-		โทร: +66 2538 4940-1  แฟ็กซ์: +66 2538 5912   ฝ่ายขาย : 08-7990-7813
-		</div>
-		<div id='detail_map_button_field'>
-		<?php
-			echo $this->Form->input('ติดต่อ',array(
-				'type' => 'button',
-				'label' => false,
-				'id' => 'detail_map_button'
-			));
-		?>
-		<?php
-			echo $this->Form->input('แจ้งคำร้อง',array(
-				'type' => 'button',
-				'label' => false,
-				'id' => 'detail_map_button'
-			));
-		?>
-		<?php
-			echo $this->Form->input('เยี่ยมชมโครงการ',array(
-				'type' => 'button',
-				'label' => false,
-				'id' => 'detail_map_button'
-			));
-		?>	
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('detail_image.png',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+
+
 
 		</div>
 	</div><!--end #detail_map_field -->
@@ -106,4 +152,5 @@
 	</div>
  </div><!-- end #content_layout -->
 </div>
+
 

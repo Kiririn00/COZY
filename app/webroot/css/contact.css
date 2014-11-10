@@ -3,7 +3,13 @@
 	background-color: #212121;
 	width: 100%
 }
-#contact_block{
+#contact_block1{
+	width: 480px;
+	background-color: #202020;
+	height: 100%;
+	float: left;
+}
+#contact_block2{
 	width: 480px;
 	background-color: #202020;
 	height: 100%;
@@ -15,5 +21,7 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+#contact_detail{
 
+}
 

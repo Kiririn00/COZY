@@ -12,7 +12,11 @@
 		echo $this->Html->css('contact');
 		echo $this->Html->css('about_us');
 		echo $this->Html->css('event');
-		echo $this->Html->css('project');	
+		echo $this->Html->css('project');
+		echo $this->Html->css('select');
+
+		echo $this->Html->script('jquery');
+			
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -130,9 +134,8 @@
 				<div id='footer_topic'>QUICK CONTACT</div>
 				<div id='footer_detail'>
 				<form action="#" method="get">
-					<input type="text" name="email" value="" placeholder="Enter email">
-  					<input type="submit" value="Enter!!!"> 
-				</form>	
+					<input id='footer_field_text' type="text" name="email" value="" placeholder="Enter email">
+  					<input id='footer_button' type="submit" value="Enter!!!"> 
 				
 				</div>				
 			</div>
@@ -141,4 +144,4 @@
 
 </body>
 </html>
-
+<?php echo $this->Html->script('select'); ?>

@@ -2,3 +2,11 @@
 	background-color: #202020;
 	height: 1765px;
 }
+#about_us_block{
+	float: left;
+	width: 480px;
+}
+#event_block{
+	width: 320px;
+	float: left;
+}

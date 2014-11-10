@@ -94,17 +94,38 @@
 				<div id='detail_option_field'>
 					<?php echo $this->Html->image('plus1.png',array('id' => 'option_icon')); ?>					
 					
-					<div id='option_detail'>รายละเอียดโครงการ<br/>Description</div>
+					<div id='option_detail'>			
+						<?php
+	       					echo $this->Html->link('รายละเอียดโครงการ',array(
+							'action' => 'DetailDesc'
+						));  
+						?>
+						<br/>Description
+					</div>
 				</div>
 				<div id='detail_option_field'>
 					<?php echo $this->Html->image('plus1.png',array('id' => 'option_icon')); ?>					
 					
-					<div id='option_detail'>แกลอรี่<br/>Gallery</div>
+						<div id='option_detail'>
+						<?php
+	       					echo $this->Html->link('แกลอรี่',array(
+							'action' => 'DetailImage'
+						));  
+						?>
+						<br/>Gallery</div>
 				</div>
 				<div id='detail_option_field' class='field_color'>
 					<?php echo $this->Html->image('plus2.png',array('id' => 'option_icon')); ?>					
 					
-					<div id='option_detail' class='option_text_color'>แผนที่โครงการ<br/>Map</div>
+					<div id='option_detail' class='option_text_color'>
+						<?php
+	       					echo $this->Html->link('แผนที่โครงการ',array(
+							'action' => 'Detail',
+							'class' => 'white_color'
+						));  
+						?>
+
+						<br/>Map</div>
 				</div>
 
 			</div>
@@ -142,9 +163,9 @@
 				<div id='footer_topic'>QUICK CONTACT</div>
 				<div id='footer_detail'>
 				<form action="#" method="get">
-					<input type="text" name="email" value="" placeholder="Enter email">
-  					<input type="submit" value="Enter!!!"> 
-				</form>	
+					<input id='footer_field_text' type="text" name="email" value="" placeholder="Enter email">
+  					<input id='footer_button' type="submit" value="Enter!!!"> 
+
 				
 				</div>				
 			</div>
