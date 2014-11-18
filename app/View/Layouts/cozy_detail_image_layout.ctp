@@ -88,7 +88,7 @@
 		<div id='detail_menu_tab'>
 			<div id='detail_menu_topic'>
 				<?php echo $this->Html->image('detail_icon.png',array('id' => 'detail_icon')); ?>
-				<span id='detail_text_topic'>CHOKCHAI 4-84</span>
+				<span id='detail_text_topic'><?php echo $project_name; ?></span>
 			</div>
 			<div id='detail_menu_option'>
 				<div id='detail_option_field'>

@@ -83,62 +83,64 @@
 			</div>
 			<div id='topic_body3_text'>LAST PROJECT</div>
 			<div id='topic_body3_text2'>VIEW ALL PRODUCTS .</div>
-		</div><!-- end #topic_body3 -->		
-		<div id='content_body3_field'>
+		</div><!-- end #topic_body3 -->	
+			<div id='content_body3_field'>
 			<div id='content_body3'>
 				<?php echo $this->Html->image('project1.jpg'); ?>
 				<span id='content_topic'>
-					CHOKCHAI 4 - 6
+				COZY @ CHOKCHAI 4 SOI 84 
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
-				ลงตัวสำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
+				จำนวน 5 ยูนิต 			
 				<br/><br/>
-				ราคาเริ่มต้น 3.5 ล้านบาท
+				SOLD OUT
 				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
+						'action' => 'DetailDesc',0
 					));
 				?>
 				</div>
 			</div>
-			<div id='content_body3'>
+		<div id='content_body3'>
 				<?php echo $this->Html->image('project1.jpg'); ?>
 				<span id='content_topic'>
-					CHOKCHAI 4 - 6
+				COZY @ SATRIWITTHAYA 2 - 29 
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
-				ลงตัวสำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
+				จำนวน 6 ยูนิต				
 				<br/><br/>
-				ราคาเริ่มต้น 3.5 ล้านบาท
+				SOLD OUT 
 				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
+						'action' => 'DetailDesc',1
 					));
 				?>
 				</div>
 			</div>
-			<div id='content_body3'>
+
+		<div id='content_body3'>
 				<?php echo $this->Html->image('project1.jpg'); ?>
 				<span id='content_topic'>
-					CHOKCHAI 4 - 6
+				COZY @ SATRIWITTHAYA 2 – 10 
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
-				ลงตัวสำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
+				จำนวน 6 ยูนิต	
 				<br/><br/>
-				ราคาเริ่มต้น 3.5 ล้านบาท
+				SOLD OUT 
 				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
+						'action' => 'DetailDesc',2
 					));
-				?>				
-			</div><!-- end #content_body3 -->
-		</div><!-- end #content_body3_field -->
+				?>
+				</div>
+		</div>
+	
 	</div><!-- end #block2_bofy3 -->
 
 	<div id='border1_body3'></div>

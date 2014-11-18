@@ -117,7 +117,7 @@
 					));
 				?>
 				</div>
-			</div>
+		</div>
 
 	</div><!-- end #content_body3_field -->
 
@@ -167,7 +167,7 @@
 				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'DetailDesc',6
+						'action' => 'DetailDesc',5
 					));
 				?>
 				</div>
@@ -188,7 +188,7 @@
 				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'DetailDesc',7
+						'action' => 'DetailDesc',6
 					));
 				?>
 				</div>
@@ -205,7 +205,7 @@
 				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'DetailDesc',8
+						'action' => 'DetailDesc',7
 					));
 				?>
 				</div>

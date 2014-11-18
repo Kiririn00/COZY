@@ -97,8 +97,7 @@
 					<div id='option_detail'  class='option_text_color'>			
 						<?php
 	       					echo $this->Html->link('รายละเอียดโครงการ',array(
-							'action' => 'DetailDesc',
-							'class' => 'white_color'
+							'action' => 'DetailDesc',$project_code,
 						));  
 						?>
 						<br/>Description
@@ -110,7 +109,7 @@
 						<div id='option_detail'>
 						<?php
 	       					echo $this->Html->link('แกลอรี่',array(
-							'action' => 'DetailImage'
+							'action' => 'DetailImage',$project_code
 						));  
 						?>
 						<br/>Gallery</div>
@@ -121,8 +120,8 @@
 					<div id='option_detail'>
 						<?php
 	       					echo $this->Html->link('แผนที่โครงการ',array(
-							'action' => 'Detail',
-													));  
+							'action' => 'Detail',$project_code
+						));  
 						?>
 
 						<br/>Map</div>
